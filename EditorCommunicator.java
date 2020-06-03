@@ -46,8 +46,7 @@ public class EditorCommunicator extends Thread {
 	 */
 	public void run() {
 		try {
-			// Handle messages
-			// TODO: YOUR CODE HERE
+/* Handle messages */
             String line;
             while ((line = in.readLine()) != null) {
             	String [] messages = line.split(" ");
@@ -105,10 +104,6 @@ public class EditorCommunicator extends Thread {
 			System.out.println("server hung up");
 		}
 	}
-
-	// Send editor requests to the server
-	// TODO: YOUR CODE HERE
-
 	/**
 	 * Handles editor's request to add
 	 * a shape to the sketch
