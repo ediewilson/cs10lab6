@@ -11,7 +11,6 @@ import java.util.List;
  * @author CBK, updated Fall 2016
  */
 public class Polyline implements Shape {
-    // TODO: YOUR CODE HERE
     List<Point> points;
     private Color color;
 
