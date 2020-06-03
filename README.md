@@ -1,6 +1,6 @@
 # Lab 6, CS10 
-Lab 6 from Object Oriented Programming 19F
-Professor: Tim Pearson
+Lab 6 from Object Oriented Programming 19F  
+Professor: Tim Pearson  
 Author: Elizabeth (Edie) Wilson
 
 ## Description 
