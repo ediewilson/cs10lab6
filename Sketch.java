@@ -15,7 +15,6 @@ public class Sketch {
      * and places that shape in the map
      */
     public synchronized int addShape(Shape shape){
-        //TODO our code here
         id++;
         idShapeList.put(id, shape);
         return id;
@@ -26,7 +25,6 @@ public class Sketch {
      * it by the given dx and dy values
      */
     public synchronized void moveShape (int id, int dx, int dy){
-        //TODO our code here
         if (idShapeList.containsKey(id)) idShapeList.get(id).moveBy(dx,dy);
     }
 
@@ -35,7 +33,6 @@ public class Sketch {
      * recolors it to the new color
      */
     public synchronized void recolorShape (int id, Color color){
-        //TODO our code here
         if (idShapeList.containsKey(id)) idShapeList.get(id).setColor(color);
     }
 
@@ -44,7 +41,6 @@ public class Sketch {
      * deletes it from the sketch
      */
     public synchronized void deleteShape (int id){
-        //TODO our code here
         if (idShapeList.containsKey(id)) idShapeList.remove(id);
     }
 
