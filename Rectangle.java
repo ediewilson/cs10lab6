@@ -10,7 +10,6 @@ import java.awt.Graphics;
  * @author CBK, updated Fall 2016
  */
 public class Rectangle implements Shape {
-	// TODO: YOUR CODE HERE
 	private int x1, y1, x2, y2;
 	private Color color;
 
